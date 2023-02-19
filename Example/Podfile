@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'CCRouteManager_Example' do
+  pod 'CCRouteManager', :path => '../'
+
+  target 'CCRouteManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
