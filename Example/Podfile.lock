@@ -1,0 +1,16 @@
+PODS:
+  - CCRouteManager (0.1.0)
+
+DEPENDENCIES:
+  - CCRouteManager (from `../`)
+
+EXTERNAL SOURCES:
+  CCRouteManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CCRouteManager: 8987b809626d93761d59c342f01eb24eb3de275c
+
+PODFILE CHECKSUM: 803c621128d39b95f86f89b81aafbdd730c87690
+
+COCOAPODS: 1.11.3

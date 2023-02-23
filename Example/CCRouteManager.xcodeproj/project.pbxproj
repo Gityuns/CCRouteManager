@@ -63,10 +63,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		99F84DB92C0D9D62856BD91C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		99F84DB92C0D9D62856BD91C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9EE3FC324E78FB840F91D516 /* Pods-CCRouteManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCRouteManager_Example.release.xcconfig"; path = "Target Support Files/Pods-CCRouteManager_Example/Pods-CCRouteManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AD92E99958F9AEE7F95C15E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E4F706260F4C4A7C26863560 /* CCRouteManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CCRouteManager.podspec; path = ../CCRouteManager.podspec; sourceTree = "<group>"; };
+		AD92E99958F9AEE7F95C15E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E4F706260F4C4A7C26863560 /* CCRouteManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CCRouteManager.podspec; path = ../CCRouteManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				5E2F80B27AD5DECB98F844A8 /* Pods-CCRouteManager_Tests.debug.xcconfig */,
 				0125DB41F60D548D3702B33F /* Pods-CCRouteManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
